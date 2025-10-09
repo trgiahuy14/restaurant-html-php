@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thông tin thành viên nhóm</title>
-    <link rel="stylesheet" href="./quanlydatban/style.css">
-    <link rel="stylesheet" href="../assets/img/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="<?php echo _HOST_URL_TEMPLATES;?>/assets/css/booking.css">
+    <link rel="stylesheet" href="<?php echo _HOST_URL_TEMPLATES;?>/assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
 </head>
 <body>
     <header>
@@ -46,7 +47,7 @@
                                 <button class="github-btn"><a href="https://github.com/trgiahuy14"><i class="ti-github"></i> GitHub</a></button>
                             </div>
                             <div class="about-item">
-                                <img src="./thongtinnhom/TranGiaHuy.jpg" alt="Tran Gia Huy">
+                                <img src="<?php echo _HOST_URL_TEMPLATES;?>/assets/img/TranGiaHuy.jpg" alt="Tran Gia Huy">
                             </div>
                         </div>
     
@@ -72,7 +73,7 @@
                                 
                         </div>
                         <div class="about-item">
-                            <img src="./thongtinnhom/ToanThang.jpg" alt="Dang Toan Thang">
+                            <img src="<?php echo _HOST_URL_TEMPLATES;?>/assets/img/ToanThang.jpg"ToanThang.jpg" alt="Dang Toan Thang">
                         </div>
                     </div>
 
@@ -101,7 +102,7 @@
                                 
                         </div>
                         <div class="about-item">
-                            <img src="./thongtinnhom/NgocTrong.jpg" alt="Ngoc Trong">
+                            <img src="<?php echo _HOST_URL_TEMPLATES;?>/assets/img/NgocTrong.jpg" alt="Ngoc Trong">
                         </div>
                     </div>
 
